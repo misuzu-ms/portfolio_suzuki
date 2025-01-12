@@ -16,19 +16,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
 }
 
 .header-wrap__img {
-  width: 15%;
-  aspect-ratio: 16 / 17;
+  width: 6%;
+  aspect-ratio: 17 / 17;
+  padding: 0.5% 0%;
 }
 .header-wrap__img a img {
   display: block;
-  width: 40%;
-  height: 40%;
-  margin-top: 62px;
-  margin-left: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .header-wrap__nav {
@@ -38,8 +36,8 @@ body {
 .header-wrap__nav__list {
   display: flex;
   justify-content: space-between;
-    margin-bottom: -100px;
-    margin-right: 15px;
+  align-items: center;
+  margin-right: 4%;
 }
 
 .header-wrap__nav__list__item a {
@@ -73,7 +71,7 @@ body {
 }
 
 .f-ttl {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #fff;
   position: absolute;
   z-index: 1;
@@ -101,7 +99,7 @@ body {
 
 .about-wrap__img__sub {
   width: 20%;
-  margin-left: -18%;
+  margin-left: -16%;
   margin-top: 2.5%;
   margin-bottom: 2%;
 }
@@ -329,6 +327,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  height: 40px;
 }
 
 .footer-wrap__list {
@@ -337,8 +337,9 @@ body {
 }
 
 .footer-wrap__list__item {
-  margin-left: 7.5%;
+  margin-right: 7.5%;
   list-style: none;
+  margin-left: 4%;
 }
 
 .footer-wrap__list__item a {
@@ -346,7 +347,6 @@ body {
   text-decoration: none;
   font-size: 0.8rem;
   transition: all 0.3s;
-  font-family: "Noto Sans JP", Serif;
 }
 
 .footer-wrap__list__item a:hover {
@@ -355,6 +355,6 @@ body {
 
 .footer-wrap__right {
   color: #000;
-  font-size: 0.5rem;
-    margin-right: 3%;
+  font-size: 0.7rem;
+  margin-right: 2%;
 }
